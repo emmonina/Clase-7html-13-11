@@ -1,0 +1,30 @@
+h1 {color: blue}
+
+h2::after{
+    content: " after";
+    color:red
+}
+
+input {    text-decoration: none;
+    background:#000000;
+    color:yellow;
+    border: 1px outset yellow;
+    padding:  .1em .5em;}
+
+p:not(.nota)::first-letter {color: blue;
+    font-size: 200%;
+}
+
+.nota{width: 50%;
+    display: list-item;
+margin: 5%;}
+
+p.nota::marker {content: " *"}
+
+#name {color: yellow}
+
+::selection {  background: rebeccapurple;
+    color:yellow;}
+
+
+

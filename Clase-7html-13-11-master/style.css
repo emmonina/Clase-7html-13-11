@@ -1,0 +1,28 @@
+.container{background: pink}
+.container legend {color: blue}
+.container legend {text-align: center}
+.container{ margin: 100px 300px 100px 300px}
+
+body {background:plum}
+
+body div > span {color: #8a2be2}
+div > span {text-align: end}
+
+ div > span {text-decoration-line: underline}
+
+input:focus:invalid{background-color: red}
+
+input:focus:valid{background-color:powderblue}
+
+label div {display:none}
+#marcas > :nth-of-type(2n+1) {background-color: aqua}
+
+.botones input:visited {background-color: aqua}
+
+.botones input {    text-decoration: none;
+    background: blue;
+    color: white;
+    border: 1px outset #ccc;
+    padding:  .1em .5em;}
+
+    input:focus:invalid .info h4 {display:none}
